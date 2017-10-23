@@ -2,7 +2,8 @@
 
 {% block content %}
 <h2>{{blog.title}}</h2><br>
-{{blog.body}}
+{{blog.body}}<br><br>
+<em>Written by: <a href="/blog?user={{user.username}}">{{user.username}}</a></em>
 
 
 
